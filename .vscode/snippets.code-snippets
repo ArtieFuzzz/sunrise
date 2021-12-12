@@ -1,0 +1,13 @@
+{
+  "VercelRoute": {
+    "prefix": "Route",
+    "body": [
+      "import { VercelRequest, VercelResponse } from '@vercel/node'",
+      "",
+      "export default async (req: VercelRequest, res: VercelResponse) => {",
+      "	// Code",
+      "}"
+    ],
+    "description": "VercelRoute"
+  }
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p serverless",
+    "build": "tsc -p api",
     "prebuild": "rimraf build",
     "start": "vercel dev",
     "deploy": "vercel deploy --prod"
@@ -17,7 +17,7 @@
     "vercel": "^23.1.2"
   },
   "dependencies": {
-    "fastify": "^3.24.1",
+    "@vercel/node": "^1.12.1",
     "tslog": "^3.3.0"
   }
 }

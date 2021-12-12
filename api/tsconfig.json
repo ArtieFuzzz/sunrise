@@ -2,8 +2,7 @@
   "extends": "@artiefuzzz/ts",
   "compilerOptions": {
     "outDir": "../build",
-    "target": "ES2019",
-    "composite": true
+    "target": "ES2019"
   },
   "include": ["."],
   "exclude": []

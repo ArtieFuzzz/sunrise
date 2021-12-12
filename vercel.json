@@ -1,8 +1,6 @@
 {
-	"rewrites": [
-		{
-			"source": "/(.*)",
-			"destination": "build/api/index.js"
-		}
-	]
+    "github": {
+        "autoAlias": false,
+        "silent": true
+    }
 }
