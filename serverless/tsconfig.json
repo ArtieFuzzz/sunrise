@@ -4,5 +4,7 @@
     "outDir": "../build",
     "target": "ES2019",
     "composite": true
-  }
+  },
+  "include": ["."],
+  "exclude": []
 }
