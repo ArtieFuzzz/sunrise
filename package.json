@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p api",
+    "build": "tsc -p serverless",
     "prebuild": "rimraf build",
     "start": "vercel dev",
     "deploy": "vercel deploy --prod"
