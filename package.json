@@ -1,0 +1,23 @@
+{
+  "name": "sunset",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p api",
+    "prebuild": "rimraf build",
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "devDependencies": {
+    "@artiefuzzz/eslint-config": "^1.0.0",
+    "@artiefuzzz/ts": "^1.1.1",
+    "eslint": "^8.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.3",
+    "vercel": "^23.1.2"
+  },
+  "dependencies": {
+    "fastify": "^3.24.1",
+    "tslog": "^3.3.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": ["@artiefuzzz/eslint-config"],
+  "parserOptions": {
+    "project": "./api/tsconfig.json"
+  }
+}

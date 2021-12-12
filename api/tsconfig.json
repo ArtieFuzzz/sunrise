@@ -1,0 +1,7 @@
+{
+  "extends": "@artiefuzzz/ts",
+  "compilerOptions": {
+    "outDir": "../build",
+    "target": "ES2019"
+  }
+}
