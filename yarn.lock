@@ -19,9 +19,9 @@
     undici "^4.11.3"
 
 "@artiefuzzz/ts@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@artiefuzzz/ts/-/ts-1.1.1.tgz#dc7a84b3cf9a69d2222ff88f21f40ce14393a991"
-  integrity sha512-RMCVcbnJjbSDPyvOiAAqDcY0Nv9L/7ccAOnXYsNeVCKAQycK9HCuyRIfwBfKKJLylMlG9RFHDjDRDRiq7ONKFg==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@artiefuzzz/ts/-/ts-1.1.2.tgz#18aa8ad702764b0c5120e8c5b09f2c6e078a328e"
+  integrity sha512-LyLRYisXSLe33NIR83w2sO7yGjiAdq2jEpkuYv+MDq+mrjU3SACoIVik0kDo/E1Vv7bY7zb3IdfvqsmdN7wiTg==
 
 "@artiefuzzz/utils@^1.0.3":
   version "1.1.0"
