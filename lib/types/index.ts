@@ -1,1 +1,1 @@
-export * from './osu';
+export * from './osu'

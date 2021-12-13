@@ -7,10 +7,12 @@
     "prebuild": "rimraf build",
     "start": "vercel dev",
     "deploy": "vercel deploy --prod",
-    "deploy:dev": "vercel deploy"
+    "deploy:dev": "vercel deploy",
+    "lint": "eslint --cache --report-unused-disable-directives --ignore-path .gitignore --ext .ts .",
+    "lint:fix": "eslint --cache --report-unused-disable-directives --ext .ts . --fix"
   },
   "devDependencies": {
-    "@artiefuzzz/eslint-config": "^1.0.0",
+    "@artiefuzzz/eslint-config": "^1.0.1",
     "@artiefuzzz/ts": "^1.1.1",
     "@types/humanize-duration": "^3.27.0",
     "@types/spotify-web-api-node": "^5.0.4",
