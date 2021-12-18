@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@artiefuzzz/eslint-config@^1.0.1":
+"@artiefuzzz/eslint-config@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@artiefuzzz/eslint-config/-/eslint-config-1.0.1.tgz#787efd84c7eb0135e888bda97570c3a850efa9dd"
   integrity sha512-UaNpQnMIXAWoLHhNYTWurTj6xKeh1LWNypKd4lEIZeuHI0Bf/fZMl2prqptB6XEXs4CD9X6v9Ux/bTehMljuTQ==
@@ -10,7 +10,7 @@
     "@typescript-eslint/eslint-plugin" "^5.6.0"
     "@typescript-eslint/parser" "^5.6.0"
 
-"@artiefuzzz/lynx@^2.2.5":
+"@artiefuzzz/lynx@2.2.5":
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@artiefuzzz/lynx/-/lynx-2.2.5.tgz#38b7b5402d1232bfaee28bae20c520e926eacfda"
   integrity sha512-jLselVi7FDOOblA76dk+UhFzbVirKlrOll4V7KbQtJfoVUauafiSQJCt9fTQ5xDNR4n6+XM001TPiJ617I4LkQ==
@@ -18,7 +18,7 @@
     "@artiefuzzz/utils" "^1.0.3"
     undici "^4.11.3"
 
-"@artiefuzzz/ts@^1.1.1":
+"@artiefuzzz/ts@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@artiefuzzz/ts/-/ts-1.1.2.tgz#18aa8ad702764b0c5120e8c5b09f2c6e078a328e"
   integrity sha512-LyLRYisXSLe33NIR83w2sO7yGjiAdq2jEpkuYv+MDq+mrjU3SACoIVik0kDo/E1Vv7bY7zb3IdfvqsmdN7wiTg==
@@ -90,7 +90,7 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@types/humanize-duration@^3.27.0":
+"@types/humanize-duration@3.27.0":
   version "3.27.0"
   resolved "https://registry.yarnpkg.com/@types/humanize-duration/-/humanize-duration-3.27.0.tgz#067ae92e001c97af8a7e7c7df977e91ff1b19b57"
   integrity sha512-ivv1EIdXz20vHPB9xftPvogUEjGLSSlgz2fipK2yyHQZvZeIgUQBZc23Kcuxa4zGbiUcRtr36Sw96CF+TO30Fw==
@@ -110,7 +110,7 @@
   resolved "https://registry.yarnpkg.com/@types/spotify-api/-/spotify-api-0.0.12.tgz#a9a2dbf447d5f0abf7a48d14fcb572db0cbd2267"
   integrity sha512-BOQKiGvXpgX0EoOFClL5aYnPuE6nCpkQS7I9xRpHnI/s0WiJ1sgqN6vavd1kLKhkfR0z4bqH65vRbw19wCVpdA==
 
-"@types/spotify-web-api-node@^5.0.4":
+"@types/spotify-web-api-node@5.0.4":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@types/spotify-web-api-node/-/spotify-web-api-node-5.0.4.tgz#457f3a82d08aa0a561f98ebc1d5f78228e3b0c5d"
   integrity sha512-t2a0wqe/9ydzqPTvL6CKys8v3mS3jR942BqSlg2e9lOtskUFSim9pXwathV0A9MTout5dpeWC3jW1yNUzJhovg==
@@ -197,7 +197,7 @@
   resolved "https://registry.yarnpkg.com/@vercel/go/-/go-1.2.3.tgz#6f2bdba5681f9d64ee17060c5d63589e2d45e2d8"
   integrity sha512-BZCHRz43Qfr0DwZlZQCcofR+3cr+H+HK72/ZPkZy1Uq0NYjJMlmZ3ahuMgvJxT9lfC1RA6eOEUlUsZ+gqKcMCg==
 
-"@vercel/node@1.12.1", "@vercel/node@^1.12.1":
+"@vercel/node@1.12.1":
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.12.1.tgz#15f42f64690f904f8a52a387123ce0958657060f"
   integrity sha512-NcawIY05BvVkWlsowaxF2hl/hJg475U8JvT2FnGykFPMx31q1/FtqyTw/awSrKfOSRXR0InrbEIDIelmS9NzPA==
@@ -570,7 +570,7 @@ eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.1.0.tgz#eee4acea891814cda67a7d8812d9647dd0179af2"
   integrity sha512-yWJFpu4DtjsWKkt5GeNBBuZMlNcYVs6vRCLoCVEJrTjaSB6LC98gFipNK/erM2Heg/E8mIK+hXG/pJMLK+eRZA==
 
-eslint@^8.4.1:
+eslint@8.4.1:
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.4.1.tgz#d6531bbf3e598dffd7c0c7d35ec52a0b30fdfa2d"
   integrity sha512-TxU/p7LB1KxQ6+7aztTnO7K0i+h0tDi81YRY9VzB6Id71kNz+fFYnf5HD5UOQmxkzcoa0TlVZf9dpMtUv0GpWg==
@@ -870,7 +870,7 @@ http-cache-semantics@^4.0.0:
   resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
   integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
 
-humanize-duration@^3.27.1:
+humanize-duration@3.27.1:
   version "3.27.1"
   resolved "https://registry.yarnpkg.com/humanize-duration/-/humanize-duration-3.27.1.tgz#2cd4ea4b03bd92184aee6d90d77a8f3d7628df69"
   integrity sha512-jCVkMl+EaM80rrMrAPl96SGG4NRac53UyI1o/yAzebDntEY6K6/Fj2HOjdPg8omTqIe5Y0wPBai2q5xXrIbarA==
@@ -1306,7 +1306,7 @@ reusify@^1.0.4:
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rimraf@^3.0.2:
+rimraf@3.0.2, rimraf@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
@@ -1388,7 +1388,7 @@ source-map@^0.6.0:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-spotify-web-api-node@^5.0.2:
+spotify-web-api-node@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/spotify-web-api-node/-/spotify-web-api-node-5.0.2.tgz#683669b3ccc046a5a357300f151df93a2b3539fe"
   integrity sha512-r82dRWU9PMimHvHEzL0DwEJrzFk+SMCVfq249SLt3I7EFez7R+jeoKQd+M1//QcnjqlXPs2am4DFsGk8/GCsrA==
@@ -1490,7 +1490,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslog@^3.3.0:
+tslog@3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/tslog/-/tslog-3.3.0.tgz#868d90a80b915087de18d810d942a6f763bd6cd1"
   integrity sha512-NP/9xDON5rv8zCS/jDpvi1V+Oplpwd86BBscdEbK6STWRxsSuott33tqly+RCSkFrLVrCuF9qAJKZTPDaR+HbQ==
@@ -1533,7 +1533,7 @@ typescript@4.3.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
   integrity sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==
 
-typescript@^4.5.3:
+typescript@4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.3.tgz#afaa858e68c7103317d89eb90c5d8906268d353c"
   integrity sha512-eVYaEHALSt+s9LbvgEv4Ef+Tdq7hBiIZgii12xXJnukryt3pMgJf6aKhoCZ3FWQsu6sydEnkg11fYXLzhLBjeQ==
@@ -1593,7 +1593,7 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-vercel@^23.1.2:
+vercel@23.1.2:
   version "23.1.2"
   resolved "https://registry.yarnpkg.com/vercel/-/vercel-23.1.2.tgz#7f36772970c7c56f10de89983f03b3c0c72d294e"
   integrity sha512-uS1k7wuXI6hbxiW+kn9vdAWL0bBi4jjVxc7Jwp8NhJjcRuzlydtt3gUEnhnC9AOIKQ4LxoAgmg50lSyYkrC8Hg==
